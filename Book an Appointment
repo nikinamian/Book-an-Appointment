@@ -8,13 +8,13 @@ print()
 
 
 year = int(input("Enter the year: "))
-if year<2024:
+while year<2024:
     print("Please enter a future/current year")
     year = int(input("Enter the year: "))
 
 
 mon = int(input("Enter the month (1-12): "))
-if mon>12:
+while mon>12:
     print("Please enter a valid month (1-12)")
     mon = int(input("Enter the month (1-12): "))
 
